@@ -1,0 +1,25 @@
+.baju thead tr {
+	background: #06F url("../images/bg_nav-01-current2.png") repeat-x scroll 0 0 transparent;
+	border: 1px solid #C4E1FF;
+	color: #FFFFFF;
+	font-weight: bold;
+	outline: medium none;
+	overflow: hidden;
+	text-shadow: -1px -1px 0 #3293D6;
+}
+.baju tr.odd {
+	background-color: #E2E4FF;
+	border: 1px solid #C4E1FF;
+}
+.baju tr.even {
+	background-color: white;
+	border: 1px solid #C4E1FF;
+}
+.baju td.odd {
+	background-color: #C4C4FF;
+	border: 1px solid #C4E1FF;
+}
+.baju td.even {
+	background-color: #E2E4FF;
+	border: 1px solid #C4E1FF;
+}

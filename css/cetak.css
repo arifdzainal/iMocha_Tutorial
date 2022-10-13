@@ -1,0 +1,33 @@
+html, body { height: auto;
+	font-family:"Century Gothic";
+	font-size:13px;
+ }
+
+
+ @media print{
+ html, body { height:auto; }
+ }
+.de {
+	text-align: justify;
+}
+.enquiries  {
+	border-top-style: 1;
+	border-right-style: 1;
+	border-bottom-style: 1;
+	border-left-style: 1;
+	border-top-color: #333;
+	border-right-color: #333;
+	border-bottom-color: #333;
+	border-left-color: #333;
+	border-collapse:collapse;
+}
+.div-cetak{
+	page-break-after:always;
+	position:relative;
+	width:720pt;
+}
+
+.div-footer{
+	bottom:0;
+	position:fixed;
+}
